@@ -20,6 +20,9 @@ test = [
     "pytest-cov>=5.0.0",
 ]
 
+[project.scripts]
+my-history="mingk42_args_historymingk42_args_history.cli:cmd"
+
 [project.urls]
 GIT="https://github.com/Mingk42/mah_20240725"
 ISSUE="https://github.com/Mingk42/mah_20240725/issue"
