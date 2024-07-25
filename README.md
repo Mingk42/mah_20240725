@@ -1,4 +1,5 @@
 # mingk42_args_history
+- parquet 파일의 정보를 cli 기반으로 조회
 
 ### Usage
 ```bash
@@ -18,3 +19,19 @@ mkdir 1932
   pdm 1220
    rm 1104
 ```
+
+
+### DevEnv setting
+```bash
+$ git clone <URL>
+$ git <proj_name>
+$ pdm install .
+$ [pdm test | pdm test]
+
+# optional
+$ pdm add -dG test pytest pytest-cov
+```
+
+
+### Ref
+- [docs 바로가기](https://pdm-project.org/en/latest/usage/dependency/#add-development-only-dependencies)
