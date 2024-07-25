@@ -27,7 +27,7 @@ def pretty(dt,top):
     fdf=df[df['dt']==dt]
     sdf = fdf.sort_values(by='cnt', ascending=False).head(top)
     ddf = sdf.drop(columns=['dt'])
-    pdf = tabulate(ddf,headers=["No.","useCmd","useCnt"])
+    pdf = tabulate(ddf,headers=["No.","useCmd","useCnt"],tablefmt="outline")
 
    # r = pdf.to_string(index=False)
    # return r
