@@ -6,3 +6,5 @@ def hello_mgs():
 def cmd():
     msg=hello_msg()
     print(msg)
+
+cmd()

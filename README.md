@@ -25,7 +25,12 @@ mkdir 1932
 ```bash
 $ git clone <URL>
 $ git <proj_name>
-$ pdm install .
+$ pyenv virtualenv 3.11 clean
+$ pyenv clean
+$ rm -rf .venv
+$ pdm venv create
+$ source .venv/bin/activate
+$ pdm install
 $ [pdm test | pdm test]
 
 # optional
