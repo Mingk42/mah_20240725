@@ -37,6 +37,18 @@ $ [pdm test | pdm test]
 $ pdm add -dG test pytest pytest-cov
 ```
 
+```
+ pytest
+========================================================================== test session starts ===========================================================================
+platform linux -- Python 3.11.9, pytest-8.3.1, pluggy-1.5.0
+rootdir: /home/root2/code/mingk42_args_history
+configfile: pyproject.toml
+plugins: cov-5.0.0
+collected 0 items
+
+========================================================================= no tests ran in 0.03s ==========================================================================
+```
+
 ### deploy
 ```bash
 # dev branch
