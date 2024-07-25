@@ -32,6 +32,15 @@ $ [pdm test | pdm test]
 $ pdm add -dG test pytest pytest-cov
 ```
 
+### deploy
+```bash
+# dev branch
+$ pip install git+https://github.com/Mingk42/mah_20240725.git@<branch name>
+
+# main
+$ pip install git+https://github.com/Mingk42/mah_20240725.git
+```
+
 
 ### Ref
 - [docs 바로가기](https://pdm-project.org/en/latest/usage/dependency/#add-development-only-dependencies)
