@@ -19,3 +19,7 @@ test = [
     "pytest>=8.3.1",
     "pytest-cov>=5.0.0",
 ]
+
+[project.urls]
+GIT="https://github.com/Mingk42/mah_20240725"
+ISSUE="https://github.com/Mingk42/mah_20240725/issue"
