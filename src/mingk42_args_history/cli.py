@@ -28,5 +28,6 @@ def cmd():
             print(f"-d => {args.dt}")
         else:
             print("to-do")
+            parser.print_help()
     else:
         parser.print_help()
