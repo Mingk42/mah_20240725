@@ -29,5 +29,6 @@ def cmd():
         else:
             print("to-do")
             parser.print_help()
+            parser.error("-t 옵션은 -d와 함께 사용되어야 합니다.")
     else:
         parser.print_help()
