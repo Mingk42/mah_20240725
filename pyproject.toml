@@ -29,6 +29,8 @@ pythonpath=[
 test="pytest"
 ctest="pytest --cov"
 stest="pytest -s"
+giti2="pip install git+https://github.com/Mingk42/mah_20240725.git@v0.2.0/argparse"
+giti="pip install git+https://github.com/Mingk42/mah_20240725.git"
 
 [project.scripts]
 my-history="mingk42_args_history.cli:cmd"
